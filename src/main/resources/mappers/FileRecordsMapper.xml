@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper namespace="com.bit.mybatis.mapper.FileRecordsMapper" >
+    <select id="selectOne" resultType="com.bit.mybatis.domain.FileRecords">
+        select * from file_records where file_id= ?
+    </select>
+</mapper>
